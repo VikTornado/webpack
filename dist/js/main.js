@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log('моё имя "One"'),console.log('моё имя "Two"')})();

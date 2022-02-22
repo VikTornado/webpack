@@ -1,5 +1,5 @@
-import burgerOne from './modules/burger';
-import sliderOne from './modules/slider';
+import testOne from './modules/one';
+import testTwo from './/modules/two';
 
-burgerOne()
-sliderOne()
+testOne()
+testTwo()

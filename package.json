@@ -3,8 +3,9 @@
     "version": "1.0.0",
     "main": "./src/index.js",
     "scripts": {
-        "build": "webpack",
-        "watch": "webpack --watch"
+        "build": "webpack --mode=production",
+        "watch": "webpack --watch --mode=development",
+        "start": "webpack serve --mode=development --open"
     },
     "repository": {
         "type": "git",
@@ -107,6 +108,7 @@
         "terser-webpack-plugin": "^5.3.1",
         "uri-js": "^4.4.1",
         "watchpack": "^2.3.1",
+        "webpack-dev-server": "^4.7.4",
         "webpack-merge": "^5.8.0",
         "webpack-sources": "^3.2.3",
         "which": "^2.0.2",

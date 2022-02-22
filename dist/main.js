@@ -1,1 +1,0 @@
-(()=>{"use strict";console.log("slider");console.log("burger"),console.log("slider")})();
